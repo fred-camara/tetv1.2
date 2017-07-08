@@ -114,8 +114,8 @@ passport.deserializeUser(function(id, done){
 
 app.use('/', express.static('public'));
 
-app.listen(7001, function(){
-  console.log("App listening on PORT: " + 7001);
+app.listen(process.env.PORT, function(){
+  console.log("App listening");
 });
 
 mongoConnection = "mongodb://localhost:27017/tetris";

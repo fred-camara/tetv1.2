@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tetris</title>
+	<script
+	  src="https://code.jquery.com/jquery-3.2.1.min.js"
+	  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+	  crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://unpkg.com/bootstrap@4.0.0-alpha.5/dist/css/bootstrap.min.css">
+
+	<style>
+	body {
+		height: 2500px;
+		background-image: url(https://media.giphy.com/media/kJNIfh5wh3JYc/giphy.gif);
+		background-size: cover;
+		border: 50px solid transparent;
+		-webkit-border-image: url(https://s3.amazonaws.com/spoonflower/public/design_thumbnails/0139/7863/tetris3_mirror.png) 50 round;
+		-o-border-image: url(https://s3.amazonaws.com/spoonflower/public/design_thumbnails/0139/7863/tetris3_mirror.png) 50 round;
+		border-image: url(https://s3.amazonaws.com/spoonflower/public/design_thumbnails/0139/7863/tetris3_mirror.png) 50 round;
+		color: #fff;
+		font-family: 'Roboto Mono', monospace;
+	}
+
+	.navbar-nav .nav-item {
+		float: right;
+		margin-right: 15px;
+	}
+
+	canvas {
+		text-align: center;
+		display: flex;
+	}
+	</style>
+</head>
+<body>
+<!-- template tag only will render once it's been imported by the doc -->
+<div class="col-md-12">
+	<div id="react">
+
+	</div>
+</div>
+
+<!-- <template id="player-template">
+	<div class="player">
+		<div class="score"></div>
+		<canvas class="tetris" width="240" height="400"></canvas>
+	</div>
+</template> -->
+<script src="bundle.js"></script>
+<script type="text/javascript" src="client/tetrisManager.js"></script>
+<script type="text/javascript" src="client/arena.js"></script>
+<script type="text/javascript" src="client/player.js"></script>
+<script type="text/javascript" src="client/tetris.js"></script>
+<script type="text/javascript" src="client/main.js"></script>
+</body>
+</html>

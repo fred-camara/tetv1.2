@@ -1,2 +1,2 @@
-# tetv1.2
-For Heroku
+# tetv1
+multiplayer tetris game - vanillajs

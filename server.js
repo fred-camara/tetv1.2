@@ -120,7 +120,9 @@ app.listen(7001, function(){
 
 mongoConnection = "mongodb://localhost:27017/tetris";
 
+
 if (process.env.MONGODB_URI) {
+  console.log(process.env.MONGODB_URI)
   mongoose.connect(process.env.MONGODB_URI)
 } else {
 mongoose.connect(mongoConnection);

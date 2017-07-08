@@ -124,4 +124,4 @@ if (process.env.MONGODB_URI) {
   mongoose.connect(process.env.MONGODB_UR)
 } else {
 mongoose.connect(mongoConnection);
-}
+};

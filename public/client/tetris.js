@@ -12,13 +12,13 @@ class Tetris
 
     this.colors = [
       null,
-      'red',
-      'blue',
-      'yellow',
-      'green',
-      'orange',
-      'purple',
-      'white'
+      '#ED0A3F',
+      '#9DE093',
+      '#95E0E8',
+      '#A50B5E',
+      '#E97451',
+      '#FF9933',
+      '#736A62'
     ]
 
     let lastTime = 0;

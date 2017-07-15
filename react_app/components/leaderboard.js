@@ -12,9 +12,9 @@ const LeaderBoard = styled.div `
   margin: 50px;
   border-color: #228B22;
   border-width: 15px;
+  box-shadow: 35px;
   box-shadow: 0 5px 10px -5px rgba(black, .2);
 `
-
 
 class Leaderboard extends Component
 {

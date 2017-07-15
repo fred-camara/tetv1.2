@@ -16,8 +16,8 @@ const Wrapper = styled.section `
   padding: 4em;
   animation: pulse 5s infinite;
   border-style: ridge;
-  border-bottom-width: 15px;
-  box-shadow: inset;
+  border-bottom-width: 10px;
+  box-shadow: 30px;
   @keyframes pulse {
     0% {
   background-color: teal;

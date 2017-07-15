@@ -9,14 +9,17 @@ const Template = styled.div `
 `
 
 const PlayerDiv = styled.div `
-  background-color: gray;
+  background-color: #5cb85c;
+  padding-bottom: 100px;
   position: relative;
+  box-shadow: 45px;
 `
 
 const Canvas = styled.canvas `
-  border-width: 10px;
+  border-width: 15px;
   border-style: solid transparent;
-  border-color: gray;
+  box-shadow: 30px;
+  border-color: #fff;
   margin: 30px auto;
 
 `
